@@ -24,8 +24,13 @@
           line-height: 50px;
           
       }
+      h2{
+        font-style: oblique;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
       .main-navbar .logo img {
           height: 50px;
+          margin-right: 10px;
           vertical-align: bottom;
       }
       .main-navbar .nav-link {
@@ -39,16 +44,20 @@
         display: flex;
         margin-top: 10px;
         padding-top: 20px;
-        gap: 20px;
-        
+        gap: 10px;
       }
-       
       .socialmedia{
         gap: 50px;
       }
-      .despre-noi{
-       padding-bottom: 50px;
-        
+      
+      .despre-logo{
+        margin-bottom: 30px;
+        justify-content: center;
+        display: flex;
+      }
+      .abonament-logo{
+        display: flex;
+        justify-content: center;
       }
       .text{
         align-items: center;
@@ -60,6 +69,11 @@
       display: flex;
       gap:300px;
       padding-bottom:50px;
+      }
+      .logo-muscle{
+        display: flex;
+        justify-content: center;
+        font-style: oblique;
       }
       .card-body{
         background-color: rgba(26, 45, 248, 0.108);
@@ -115,7 +129,9 @@
     </button>
   </div>
   <h2 id="despre" class="text">Despre noi</h2>
-  <h3 class="text">Cine suntem ?</h3>
+  <div class="despre-logo">
+    <img src="gym.png" alt="logo gym">
+   </div>
   <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
   <div class="despre-noi">
     <p>GYM HOUSE - locul unde îți pui în mișcare visurile și îți construiești corpul perfect.
@@ -124,38 +140,45 @@
       Așa că, te afunzi într-o lume plină de aparate sofisticate, într-un decor cu ziduri pline de oglindi care reflectă siluetele muncitorilor, într-un fundal sonor dominat de zgomotul greutăților care se lovesc și de sughițurile celor care depun efort maxim.</p>
   </div>
 </div>
+<div class="logo-muscle">
+<img src="muscle.png" alt="logo muscle" >
   <h2  id="antrenori" class="text">Antrenori</h2>
+</div>
    <p>Antrenorii de la GYM HOUSE sunt persoane specializate în antrenamentele fizice și în instruirea persoanelor la diferite exerciții și aparate folosite în sala de fitness. Aceștia au cunoștințe despre anatomie, nutriție, fiziologie, tehnici de antrenament și sănătate în general.
     Rolul unui antrenor de sala de fitness este de a ghida și motiva persoanele care își doresc să se antreneze, să le ofere sfaturi în ceea ce privește siguranța exercițiilor pe care le efectuează și să îi ajute să își atingă obiectivele dorite. Antrenorii pot crea programe de antrenament personalizate, în funcție de nivelul de pregătire al fiecărei persoane și de obiectivele acestora, și pot oferi sfaturi referitoare la nutriție și stil de viață sănătos.
     Un antrenor de sala de fitness trebuie să fie o persoană pasionată de sănătate și fitness, să fie bine pregătit din punct de vedere profesional și să fie capabil să se adapteze la nevoile și cerințele fiecărei persoane pe care o instruiește. Este important ca aceștia să își țină constant cunoștințele la zi și să se dezvolte profesional prin cursuri și training-uri pentru a putea oferi cele mai bune sfaturi și instruiri.
     De asemenea, un antrenor de sala de fitness trebuie să fie comunicativ, empatic și să poată motiva persoanele pe care le antrenează pentru a-și atinge obiectivele. Este important să știe să ofere feedback constructiv și să poată ajusta programul de antrenament în funcție de nevoile și progresul fiecărei persoane.
     Antrenorii de sala de fitness pot lucra în săli de fitness, centre sportive, spa-uri sau pot desfășura activitatea în mod independent, oferind antrenamente personale clienților. Indiferent de mediul în care activează, antrenorii de sala de fitness au un rol important în ajutarea persoanelor să își îmbunătățească starea de sănătate, să câștige în forță și să își atingă scopurile legate de fitness și modul de viață sănătos.</p>
-  <div class="antrenori">
+ 
+    <div class="antrenori">
     <div class="card-group">
       <div class="card">
         <img src="antrenor1.jpg" class="card-img-top" alt="un barbat ajuta alt barbat cu niste greutati">
         <div class="card-body">
-          <h5 class="card-title">Alex</h5>
+          <h3 class="card-title">Alex</h3>
           <p class="card-text">Antrenor fitness și campion ridicare greutăți</p>
         </div>
       </div>
       <div class="card">
         <img src="antrenor2.jpg" class="card-img-top" alt="Doua femei care fac sport">
         <div class="card-body">
-          <h5 class="card-title">Maria</h5>
+          <h3 class="card-title">Maria</h3>
           <p class="card-text">Antrenor fitness și zumba </p>
         </div>
       </div>
       <div class="card">
         <img src="antrenor3.jpg" class="card-img-top" alt="un barbat sta pe un aparat de fitness cu telefonul in mana ">
         <div class="card-body">
-          <h5 class="card-title">Mihai</h5>
+          <h3 class="card-title">Mihai</h3>
           <p class="card-text">Antrenor fitness</p>
         </div>
       </div>
     </div>
    </div>
+   <div class="abonament-logo">
+    <img src="report.png" alt="report logo">
    <h2 id="abonamente" class="text">Abonamente</h2>
+  </div>
    <p>Un abonament pentru sala de fitness este o investiție în propria sănătate și bunăstare. Aceste abonamente oferă acces nelimitat la echipamente și facilități de calitate superioară, precum și la o varietate de clase și antrenamente specializate.
     Unul dintre principalele avantaje ale unui abonament pentru sala de fitness este faptul că îți permite să îți organizezi programul de antrenament în funcție de propriile nevoi și disponibilitate. Poți alege să mergi dimineața devreme, în timpul zilei sau seara târziu, în funcție de programul tău zilnic. De asemenea, ai libertatea de a alege tipurile de antrenament care se potrivesc cel mai bine obiectivelor tale: fie că este vorba de forță și rezistență, cardio, yoga sau pilates.u toate acestea, înainte de a achiziționa un abonament pentru sala de sport, este important să evaluezi avantajele financiare și să îți stabilești obiectivele de fitness. Este important să stabilești un program de antrenament și să te asiguri că vei utiliza în mod eficient facilitățile oferite de sala de fitness.</p>
    <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -163,7 +186,7 @@
       <div class="card">
         <img src="silver.jpg" class="card-img-top" alt="silver photo">
         <div class="card-body">
-          <h5 class="card-title">SILVER</h5>
+          <h3 class="card-title">SILVER</h3>
           <p class="card-text">Pret:120 lei</p>
           <p>Acces sala de sport în intervalul orar: 07:00-18:00</p>
           <a href="#" class="btn btn-primary">Alege!</a>
@@ -174,7 +197,7 @@
       <div class="card">
         <img src="gold.jpg" class="card-img-top" alt="gold photo">
         <div class="card-body">
-          <h5 class="card-title">GOLD</h5>
+          <h3 class="card-title">GOLD</h3>
           <p class="card-text">Pret:150 lei</p>
           <p>Acces sala de sport în intervalul orar: 07:00-20:00</p>
           <a href="#" class="btn btn-primary">Alege!</a>
@@ -185,8 +208,8 @@
       <div class="card">
         <img src="platinum.jpg" class="card-img-top" alt="platinium photot">
         <div class="card-body">
-          <h3><span class="badge bg-secondary">Nou</span></h3>
-          <h5 class="card-title">PLATINUM</h5>
+          <h4><span class="badge bg-secondary">Nou</span></h4>
+          <h3 class="card-title">PLATINUM</h3>
           <p class="card-text">Pret:200 lei </p>
           <p> Acces sala de sport în intervalul orar: 07:00-22:00</p>
           <a href="#" class="btn btn-primary">Alege!</a>
